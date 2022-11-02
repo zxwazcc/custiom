@@ -133,7 +133,7 @@ function library:CreateMain(guititle, credits)
 	Info.ZIndex = 3
 	Info.AutoButtonColor = false
 	Info.Font = Enum.Font.TitilliumWeb
-	Info.Text = "credits"
+	Info.Text = "Info/Creator"
 	Info.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Info.TextSize = 25.000
 	Info.TextWrapped = true
@@ -200,14 +200,14 @@ function library:CreateMain(guititle, credits)
 	InfoTitle_2.Position = UDim2.new(0.336419344, 0, 0, 0)
 	InfoTitle_2.Size = UDim2.new(0, 121, 0, 25)
 	InfoTitle_2.Font = Enum.Font.TitilliumWeb
-	InfoTitle_2.Text = "Zxwz Own's u"
+	InfoTitle_2.Text = "Info/Creator"
 	InfoTitle_2.TextColor3 = Color3.fromRGB(89, 89, 89)
 	InfoTitle_2.TextSize = 25.000
 	InfoTitle_2.TextWrapped = true
 
 	local credit = ""
 	if credits then
-        credit = ', scripts made by: "'.. credits.. '" !'
+        credit = ', script made by: "'.. credits.. '" !'
     else
         credit = " !"
     end
@@ -219,6 +219,7 @@ function library:CreateMain(guititle, credits)
 	InfoTextC.Position = UDim2.new(0, 24, 0.256999999, 0)
 	InfoTextC.Size = UDim2.new(0, 329, 0, 103)
 	InfoTextC.Font = Enum.Font.TitilliumWeb
+    InfoTextC.Text = "zxwz owns u \"zxwz#3457\"".. credit
 	InfoTextC.TextColor3 = Color3.fromRGB(211, 211, 211)
 	InfoTextC.TextSize = 25.000
 	InfoTextC.TextWrapped = true

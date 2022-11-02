@@ -133,7 +133,7 @@ function library:CreateMain(guititle, credits)
 	Info.ZIndex = 3
 	Info.AutoButtonColor = false
 	Info.Font = Enum.Font.TitilliumWeb
-	Info.Text = "Zxwz Own's u"
+	Info.Text = "credits"
 	Info.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Info.TextSize = 25.000
 	Info.TextWrapped = true
